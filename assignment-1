@@ -1,0 +1,30 @@
+#question 1
+def cube(n):
+  return n*n*n
+  #alternatively we can also do n**3
+x=int(input("enter the number to be cubed")
+print("the cube of ",x,"is=",cube(x))
+
+#question 2
+def factorial(n):
+  if n==0:
+    return 0
+  elif n<0:
+    return "invalid"
+  else:
+    for i in range(0,n):
+      return n*(n-1)
+y=int(input("enter the number for which factroial is to be found"))
+print("the factorial of ",y,"is=",factorial(y))
+
+#question 3
+def count_pattern(pattern,strr):
+  count=0
+  for i in range(len(strr) -len(pattern) +1):
+    if[strr(i:i+len(pattern))=pattern]:
+      count+=1
+print(count_pattern(('a', 'b'), ('a', 'b', 'c', 'e', 'b', 'a', 'b', 'f')))
+print(count_pattern(('a', 'b', 'a'), ('g', 'a', 'b', 'a', 'b', 'a', 'b', 'a')))
+
+#question 4 
+def depth_tree_counter(
